@@ -10,7 +10,7 @@ use ravesoft\widgets\LanguagePills;
 /* @var $model ravesoft\models\Setting */
 /* @var $form ravesoft\widgets\ActiveForm */
 
-$this->title = Yii::t('yee/settings', 'General Settings');
+$this->title = Yii::t('rave/settings', 'General Settings');
 $this->params['breadcrumbs'][] = $this->title;
 
 SettingsAsset::register($this);
@@ -51,7 +51,7 @@ SettingsAsset::register($this);
             ->dropDownList(GeneralSettings::getTimeFormats())->hint($model->getDescription('timeformat')) ?>
 
         <div class="form-group">
-            <?= Html::submitButton(Yii::t('yee', 'Save'), ['class' => 'btn btn-primary']) ?>
+            <?= Html::submitButton(Yii::t('rave', 'Save'), ['class' => 'btn btn-primary']) ?>
         </div>
 
         <?php ActiveForm::end(); ?>

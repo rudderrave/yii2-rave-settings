@@ -30,7 +30,7 @@ class ReadingSettings extends BaseSettingsModel
     public function attributeLabels()
     {
         return [
-            'page_size' => Yii::t('yee/settings', 'Page Size'),
+            'page_size' => Yii::t('rave/settings', 'Page Size'),
         ];
     }
 

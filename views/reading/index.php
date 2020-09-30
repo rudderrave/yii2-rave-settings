@@ -8,7 +8,7 @@ use ravesoft\widgets\ActiveForm;
 /* @var $model ravesoft\models\Setting */
 /* @var $form ravesoft\widgets\ActiveForm */
 
-$this->title = Yii::t('yee/settings', 'Reading Settings');
+$this->title = Yii::t('rave/settings', 'Reading Settings');
 $this->params['breadcrumbs'][] = $this->title;
 
 SettingsAsset::register($this);
@@ -34,7 +34,7 @@ SettingsAsset::register($this);
         <?= $form->field($model, 'page_size')->textInput(['maxlength' => true])->hint($model->getDescription('page_size')) ?>
 
         <div class="form-group">
-            <?= Html::submitButton(Yii::t('yee', 'Save'), ['class' => 'btn btn-primary']) ?>
+            <?= Html::submitButton(Yii::t('rave', 'Save'), ['class' => 'btn btn-primary']) ?>
         </div>
 
         <?php ActiveForm::end(); ?>

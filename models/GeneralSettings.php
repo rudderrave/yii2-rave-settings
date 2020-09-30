@@ -30,7 +30,7 @@ class GeneralSettings extends BaseSettingsModel
                 [['title', 'email', 'timezone', 'dateformat', 'timeformat'], 'required'],
                 [['email'], 'email'],
                 [['description'], 'safe'],
-                ['title', 'default', 'value' => 'Yee Site'],
+                ['title', 'default', 'value' => 'Rave Site'],
                 ['timezone', 'default', 'value' => 'Europe/London'],
                 ['dateformat', 'default', 'value' => 'F j, Y'],
                 ['timeformat', 'default', 'value' => 'g:i a'],
@@ -55,12 +55,12 @@ class GeneralSettings extends BaseSettingsModel
     public function attributeLabels()
     {
         return [
-            'title' => Yii::t('yee/settings', 'Site Title'),
-            'description' => Yii::t('yee/settings', 'Site Description'),
-            'email' => Yii::t('yee/settings', 'Admin Email'),
-            'timezone' => Yii::t('yee/settings', 'Timezone'),
-            'dateformat' => Yii::t('yee/settings', 'Date Format'),
-            'timeformat' => Yii::t('yee/settings', 'Time Format'),
+            'title' => Yii::t('rave/settings', 'Site Title'),
+            'description' => Yii::t('rave/settings', 'Site Description'),
+            'email' => Yii::t('rave/settings', 'Admin Email'),
+            'timezone' => Yii::t('rave/settings', 'Timezone'),
+            'dateformat' => Yii::t('rave/settings', 'Date Format'),
+            'timeformat' => Yii::t('rave/settings', 'Time Format'),
         ];
     }
 

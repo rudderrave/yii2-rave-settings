@@ -1,16 +1,9 @@
 <?php
-/**
- * @link http://www.yee-soft.com/
- * @copyright Copyright (c) 2015 Taras Makitra
- * @license http://www.apache.org/licenses/LICENSE-2.0
- */
 
 namespace ravesoft\settings;
 
 /**
- * Settings Module For Yee CMS
- *
- * @author Taras Makitra <makitrataras@gmail.com>
+ * Settings Module For Rave CMS
  */
 class SettingsModule extends \yii\base\Module
 {

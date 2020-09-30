@@ -10,6 +10,6 @@ namespace ravesoft\settings\controllers;
 class ReadingController extends SettingsBaseController
 {
     public $modelClass = 'ravesoft\settings\models\ReadingSettings';
-    public $viewPath = '@vendor/rudderrave/yii2-yee-settings/views/reading/index';
+    public $viewPath = '@vendor/rudderrave/yii2-rave-settings/views/reading/index';
 
 }

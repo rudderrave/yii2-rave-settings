@@ -2,7 +2,7 @@
 
 use ravesoft\db\TranslatedMessagesMigration;
 
-class m160419_235120_i18n_ru_yee_settings extends TranslatedMessagesMigration
+class m160419_235120_i18n_ru_rave_settings extends TranslatedMessagesMigration
 {
 
     public function getLanguage()
@@ -12,7 +12,7 @@ class m160419_235120_i18n_ru_yee_settings extends TranslatedMessagesMigration
 
     public function getCategory()
     {
-        return 'yee/settings';
+        return 'rave/settings';
     }
 
     public function getTranslations()

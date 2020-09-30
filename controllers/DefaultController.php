@@ -10,6 +10,6 @@ namespace ravesoft\settings\controllers;
 class DefaultController extends SettingsBaseController
 {
     public $modelClass = 'ravesoft\settings\models\GeneralSettings';
-    public $viewPath = '@vendor/rudderrave/yii2-yee-settings/views/default/index';
+    public $viewPath = '@vendor/rudderrave/yii2-rave-settings/views/default/index';
 
 }

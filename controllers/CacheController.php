@@ -3,7 +3,7 @@
 namespace ravesoft\settings\controllers;
 
 use ravesoft\controllers\admin\BaseController;
-use ravesoft\helpers\YeeHelper;
+use ravesoft\helpers\RaveHelper;
 use Yii;
 use ravesoft\models\User;
 
@@ -25,8 +25,8 @@ class CacheController extends BaseController
             $frontendAssetPath = Yii::getAlias('@frontend') . '/web/assets/';
             $backendAssetPath = Yii::getAlias('@backend') . '/web/assets/';
 
-            YeeHelper::recursiveDelete($frontendAssetPath);
-            YeeHelper::recursiveDelete($backendAssetPath);
+            RaveHelper::recursiveDelete($frontendAssetPath);
+            RaveHelper::recursiveDelete($backendAssetPath);
 
             if (!is_dir($frontendAssetPath)) {
                 @mkdir($frontendAssetPath);
